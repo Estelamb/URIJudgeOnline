@@ -8,4 +8,4 @@ Os exercícios realizados no URI Judge Online foram utilizados para a criação 
 
 ## Minhas Estatísticas
 
-![](<https://i.pinimg.com/originals/26/40/a3/2640a32fa98d039adaa963b72221b058.png>)
+![](<https://i.pinimg.com/originals/47/da/5f/47da5f566b987e99b5fac9442b4a8186.png>)
