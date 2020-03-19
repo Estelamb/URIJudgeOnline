@@ -1,6 +1,6 @@
 # URI Judge Online
 
-![](<https://i.pinimg.com/originals/0a/9c/b0/0a9cb0951a58e4e7779be13585555645.png>)
+![](<https://i.pinimg.com/originals/26/40/a3/2640a32fa98d039adaa963b72221b058.png>)
 
 ## Exercícios Realizados
 
