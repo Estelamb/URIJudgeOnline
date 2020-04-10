@@ -1,6 +1,6 @@
 # URI Judge Online
 
-![](<https://i.pinimg.com/originals/0a/9c/b0/0a9cb0951a58e4e7779be13585555645.png>)
+![](<https://1.bp.blogspot.com/-kJ74_dwggUw/WSmJ95qkrEI/AAAAAAAAE-I/RjRHjoxMxgYgPUr4LaVxvrXTv3jCCjibQCLcB/s320/uri.png>)
 
 ## Exercícios Realizados
 
@@ -8,4 +8,4 @@ Os exercícios realizados no URI Judge Online foram utilizados para a criação 
 
 ## Minhas Estatísticas
 
-![](<https://i.pinimg.com/originals/8c/18/c0/8c18c0f35d3906e21c1efcd1ac0c22fa.png>)
+![](<https://i.pinimg.com/originals/47/da/5f/47da5f566b987e99b5fac9442b4a8186.png>)
