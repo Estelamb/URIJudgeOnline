@@ -1,38 +1,31 @@
-#include <iostream>
-#include <algorithm>
+#include<stdio.h>
+#include<string.h>
+#define MAX 64
+#define MSET(c,v) memset(c,v,sizeof(c))
 
-using namespace std;
+int max(int a, int b){ return (a > b)? a : b; }
 
-int get_len_lcs(string& s1, string& s2){
-	int len_s1 = s1.size(), len_s2 = s2.size();
-
-	// matrix
-	int mat[len_s1 + 1][len_s2 + 1];
-
-	// initializes the first line and column with 0
-	for(int i = 1; i <= len_s1; i++) mat[i][0] = 0;
-	for(int i = 0; i <= len_s2; i++) mat[0][i] = 0;
-
-	for(int i = 1; i <= len_s1; i++){
-		for(int j = 1; j <= len_s2; j++){
-			if(s1[i - 1] == s2[j - 1])
-				mat[i][j] = mat[i - 1][j - 1] + 1;
-			else
-				mat[i][j] = max(mat[i][j - 1], mat[i - 1][j]);
+int lcs(char *X, char *Y, int m, int n){
+	int i, j, t[MAX][MAX], ret = 0;
+	t[0][0] = t[0][1] = t[1][0] = 0;
+	for(i = 1; i<=m; i++){
+		for(j = 1; j<=n; j++){
+			if(X[i-1] == Y[j-1]){
+				t[i][j] = t[i-1][j-1] + 1;
+				ret = max(ret, t[i][j]);
+			}else t[i][j] = 0;
 		}
 	}
-
-	return mat[len_s1][len_s2];
+	return ret;
 }
 
-int main(){
-  string s1, s2;
-
-  while(1){
-    getline(cin, s1);
-    getline(cin, s2);
-
-    cout << get_len_lcs(s1, s2) << endl;
-  }
-  return 0;
+int main(void){
+	char s[MAX], t[MAX];
+	while(fgets(s, MAX, stdin) != NULL){
+		fgets(t, MAX, stdin);
+		int ts = strlen(s), tt = strlen(t);
+		s[ts-1] = t[tt-1] = 0;
+		printf("%d\n", lcs(s, t, strlen(s), strlen(t)));
+	}
+	return 0;
 }
