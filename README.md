@@ -4,7 +4,7 @@
 
 ## Exercícios Realizados
 
-Os exercícios realizados no URI Judge Online foram utilizados para a criação de Lógica de Programação na disciplina de Programação (CCF 110) da Universidade Federal de Viçosa - Campus Florestal, além de serem utilizados para o treinamento de maratonas do projeto "Minas Coders" idealizado pelas professoras Gláucia Braga e Thais Regina na UFV que tem como objetivo inserir as mulheres no universo de Ciência de Computação, muitas vezes ligada a imagem masculina.
+Os exercícios aqui presentes foram feitos na disciplina de Programação da UFV, Campus Florestal, e posteriormente feitos durantes os treinamentos para maratona que realizei durante meus períodos cursados na UFV, sendo que grande parte deles foram realizados nos treinamentos, ou para o treinamentos de maratonas do projeto [MinasCoders](<http://minascoders.caf.ufv.br/>)
 
 ## Minhas Estatísticas
 
